@@ -1,0 +1,21 @@
+{
+    "name": "toolkit/toolkit",
+    "description": "工具包",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zctBoy",
+            "email": "981246441@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Toolkit\\Toolkit\\": "src/Toolkit/Toolkit"
+        }
+    }
+}
